@@ -8,7 +8,6 @@
 
 .header__nav{
     width: 50%;
-    margin-right: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;   
@@ -31,4 +30,8 @@
     font-size: 1.5rem;
     color: black;
     font-weight: 700;
+}
+
+.nav__btn:hover{
+    color: rgb(0, 0, 0, 0.7);
 }

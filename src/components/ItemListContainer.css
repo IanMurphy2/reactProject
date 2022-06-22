@@ -1,0 +1,6 @@
+.ItemListContainer{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    
+}

@@ -1,0 +1,12 @@
+.cart__div{
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart__btn{
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+}
