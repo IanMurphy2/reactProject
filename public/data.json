@@ -1,17 +1,59 @@
 [
-{   "id": 1,
+{   
+    "id": 1,
     "titulo": "Dylan Blue",
     "marca": "Versace",
     "precio": "$15000",
     "foto": "../assets/dylanBlueEDT.webp",
     "stock": "5"
 },
-{   "id": 2,
+{   
+    "id": 2,
     "titulo": "Bleu de Chanel",
     "marca": "Chanel",
     "precio": "$16500",
     "foto": "../assets/bleuDeChanel.webp",
-    "stock": "8"
+    "stock": "0"
+},
+{   
+    "id": 3,
+    "titulo": "Allure Homme Sport",
+    "marca": "Chanel",
+    "precio": "$15500",
+    "foto": "../assets/allureHommeSport.webp",
+    "stock": "6"
+},
+{   
+    "id": 4,
+    "titulo": "Bad Boy Le Parfum",
+    "marca": "Carolina Herrera",
+    "precio": "$20700",
+    "foto": "../assets/badBoyParfum.webp",
+    "stock": "2"
+},
+{   
+    "id": 5,
+    "titulo": "Fucking Fabulous",
+    "marca": "Tom Ford",
+    "precio": "$92500",
+    "foto": "../assets/fuckingFabulous.webp",
+    "stock": "3"
+},
+{   
+    "id": 6,
+    "titulo": "Sauvage Parfum",
+    "marca": "Dior",
+    "precio": "$24700",
+    "foto": "../assets/sauvageParfum.webp",
+    "stock": "12"
+},
+{   
+    "id": 7,
+    "titulo": "Le Male Le Parfum",
+    "marca": "Jean Paul Gaultier",
+    "precio": "$18050",
+    "foto": "../assets/leMaleLeParfum.webp",
+    "stock": "3"
 }
 ]
 

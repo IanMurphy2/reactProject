@@ -25,7 +25,7 @@ return(
         <span className="card__cant__num">{num}</span>
         <button className="card__btn" onClick={suma}>+</button>
     </div>
-    {stock === "0"? <button className="AgregarAlCarrito__btn">Fuera de stock</button> : <button className="AgregarAlCarrito__btn">Agregar al Carrito</button>}
+    {stock === "0"? <button className="AgregarAlCarrito__btn not-allowed">Fuera de stock</button> : <button className="AgregarAlCarrito__btn">Agregar al Carrito</button>}
     </section>
 
     )

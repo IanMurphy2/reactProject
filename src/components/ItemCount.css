@@ -83,3 +83,7 @@
    .AgregarAlCarrito__btn:hover {
     color: white;
    }
+
+.not-allowed{
+    cursor: not-allowed;
+}

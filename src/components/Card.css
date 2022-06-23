@@ -4,8 +4,10 @@
 }
 
 .card{
+    cursor: pointer;
     border-radius: 3rem;
     width: 25%;
+    min-width: 200px;
     margin: 2rem;
     display: flex;
     flex-direction: column;
