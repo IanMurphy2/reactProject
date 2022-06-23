@@ -1,0 +1,17 @@
+[
+{   "id": 1,
+    "titulo": "Dylan Blue",
+    "marca": "Versace",
+    "precio": "$15000",
+    "foto": "../assets/dylanBlueEDT.webp",
+    "stock": "5"
+},
+{   "id": 2,
+    "titulo": "Bleu de Chanel",
+    "marca": "Chanel",
+    "precio": "$16500",
+    "foto": "../assets/bleuDeChanel.webp",
+    "stock": "8"
+}
+]
+

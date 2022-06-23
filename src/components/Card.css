@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    border-radius: 3rem;
+    width: 25%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.card:hover{
+    box-shadow: 0 0 20px black ;
+}
+
+.card__title{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.card__marca{
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.card__foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 3rem;
+}
+
+.card__precio{
+    margin-top: 1rem;
+}
