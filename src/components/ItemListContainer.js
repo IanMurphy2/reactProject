@@ -1,6 +1,5 @@
-import "./ItemListContainer.css"
-import Card from "./Card.js";
 import { useEffect, useState} from "react"
+import ItemList from "./ItemList";
 
 function ItemListContainer(){
    
@@ -8,17 +7,16 @@ function ItemListContainer(){
 
     useEffect(() => {
         setTimeout(() => {
-            fetch("data.json").then((resp) => resp.json()).then((data) => setInfo(data))
+            fetch("data.json")
+            .then((resp) => resp.json())
+            .then((data) => setInfo(data))
         }, 2000)
-
     }, [])
     
     return(
 
-        <main className="ItemListContainer">
-
-        {info.map(producto => <Card titulo={producto.titulo} marca={producto.marca} foto={producto.foto} precio={producto.precio} stock={producto.stock} />)}
-        
+        <main>
+        <ItemList listadoProductos={info} />
         </main>
     )
 }

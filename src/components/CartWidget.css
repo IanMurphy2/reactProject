@@ -6,6 +6,7 @@
 }
 
 .cart__btn{
+    background-color: transparent;
     margin-right: 5px;
     border: none;
     cursor: pointer;

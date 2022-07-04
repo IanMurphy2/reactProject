@@ -49,6 +49,7 @@
 }
 
 .AgregarAlCarrito__btn{
+    cursor: pointer;
     padding: 0.8em 1.8em;
     position: relative;
     overflow: hidden;

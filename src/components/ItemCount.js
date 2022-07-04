@@ -1,9 +1,9 @@
 import "./ItemCount.css"
 import { useState } from "react"
 
-function ItemCount({ stock }){
+function ItemCount({ stock, inicial }){
 
-    const [num, setNum] = useState(1);
+    const [num, setNum] = useState(inicial);
 
     const suma = () => {
         if(num < stock)
@@ -11,7 +11,7 @@ function ItemCount({ stock }){
     }
 
     const resta = () => {
-        if(num > 1){
+        if(num > inicial){
         setNum(num - 1)
         }
     }
