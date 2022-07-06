@@ -150,7 +150,7 @@
     "stock": "7"
 },
 {   
-    "id": "16",
+    "id": 16,
     "categoria": "mujer",
     "titulo": "Black Opium EDP",
     "descripcion": "Atrevete a probar el perfume adictivo y sensual de Yves Saint Laurent y preparate para rockear toda la noche. Liberá tus sentidos y desafía todas las reglas en la oscuridad de la noche. Black Opium, un perfume de YSL para una mujer joven y sexy que no le tiene miedo a la noche. Con Black Opoim de Yves Saint Laurent podés estar siempre en la última tendencia internacional. Familia olfativa: Floriental.",
@@ -160,7 +160,7 @@
     "stock": "6"
 },
 {   
-    "id": "17",
+    "id": 17,
     "categoria": "mujer",
     "titulo": "Black For Her EDP",
     "descripcion": "Paco Rabanne Black XS, una fragancia floral, amaderada y afrutada, solo apta para almas rebeldes. La fusión de la exótica flor de tamarindo y frutos silvestres la convierte en una fragancia sorprendente. Su corazón de rosa eléboro le da un giro afrodisíaco. Inspirada en las luces de la noche, su fondo es cautivador y apasionado gracias a la vainilla negra. Notas de entrada: flor de tamarindo, frutos silvestres.",
@@ -170,7 +170,7 @@
     "stock": "12"
 },
 {   
-    "id": "18",
+    "id": 18,
     "categoria": "mujer",
     "titulo": "Bright Crystal EDT",
     "descripcion": "Una fragancia cautivadora, voluptuosa y elocuente, que simboliza la mujer Versace fuerte y segura de su encanto, sensual y femenina, siempre glamorosa. Una mujer a la que le encanta estar envuelta en una fragancia que revela delicadamente los coloridos y jugosos granos de granada, la frescura helada y el increíble yuzu. La belleza de la magnolia, la peonía y la flor de loto proporcionan voluptuosidad y transparencia, mientras que el ámbar vegetal es delicadamente sensual y deleitará los sentidos. Familia olfativa: floral, afrutada, almizclada",
@@ -180,7 +180,7 @@
     "stock": "11"
 },
 {   
-    "id": "19",
+    "id": 19,
     "categoria": "mujer",
     "titulo": "CH EDT",
     "descripcion": "La fragancia CH, de Carolina Herrera, es un accesorio invisible, el toque final. La mujer CH vive cada momento con una vibrante sensación de presencia. Exudando pasión y sensibilidad, influye en quienes la rodean con su sentido de autenticidad. Inspirada en la elegancia intemporal pero moderna del espíritu de Carolina Herrera, CH aporta su alegría relajada a la fragancia. Un accesorio de poder invisible, un toque final para cada momento de su colorida vida.",
@@ -190,7 +190,7 @@
     "stock": "9"
 },
 {   
-    "id": "20",
+    "id": 20,
     "categoria": "mujer",
     "titulo": "Coco Mademoiselle",
     "descripcion": "COCO MADEMOISELLE Eau de Parfum Intense. La esencia de una mujer libre y cautivadora. Un amaderado y ambarino de carácter intenso: sensual, profundo, adictivo. COCO MADEMOISELLE Eau de Parfum Intense es un amaderado y ambarino de carácter extremo. El perfume se compone en torno a una sobredosis de pachulí realzada por la calidez de un acorde ambarino de absoluto de vainilla y haba tonka. Un corazón de rosa y jazmín, y el frescor contrastado de los cítricos completan esta poderosa composición.",
@@ -200,7 +200,7 @@
     "stock": "7"
 },
 {   
-    "id": "21",
+    "id": 21,
     "categoria": "mujer",
     "titulo": "Cristal Royal Passion EDP",
     "descripcion": "En esta oportunidad se inspira en la luz y belleza apasionada de la mujer. Para una mujer: Apasionada: Ama la vida y hace todas las cosas al 100%. Ella sabe que es hermosa y tiene una sensualidad asertiva que crea el deseo en ella. Confianza en sí misma: Dinámica, cree en sí misma, se atreve a hacer las cosas siempre con elegancia. Esta actitud la ilumina donde quiera que va. La mujer Cristal Royal Passion no pasa desapercibida, irradia sensualidad.",
@@ -210,7 +210,7 @@
     "stock": "3"
 },
 {   
-    "id": "22",
+    "id": 22,
     "categoria": "mujer",
     "titulo": "Dylan Blue Pour Femme EDP",
     "descripcion": "Dylan Blue es una sensual e intensa fragancia que combina atractivas notas, como el refrescante aroma a grosella y sorbete de manzana, con la fragancia de un ramo de flores silvestres. Un perfume que presenta notas con un toque amaderado, corazón de pachulí, estoraque y maderas blancas, que aportan intensidad a esta esencia femenina. Un elegante frasco con líneas curvas en forma de ánfora que evoca el legado de Versace a través de la cultura y la mitología griegas.",
@@ -220,7 +220,7 @@
     "stock": "5"
 },
 {   
-    "id": "23",
+    "id": 23,
     "categoria": "mujer",
     "titulo": "Good Girl Supreme EDP",
     "descripcion": "Good Girl Eau de Parfum Supreme rompe todas las reglas de los perfumes y reinventa su familia olfativa. La dulzura de las jugosas bayas da paso a la afrodisíaca personalidad del intenso jazmín de Egipto, mientras las cremosas habas tonka y el vibrante vetiver le dan un toque moderno a la fórmula final.",
@@ -230,7 +230,7 @@
     "stock": "12"
 },
 {   
-    "id": "24",
+    "id": 24,
     "categoria": "mujer",
     "titulo": "JAdore EDP",
     "descripcion": "Un aroma floral luminoso, alegre, asentado y decidido. Armoniza flores como la Champaca (variedad de magnolia de la India, de olor fresco, afrutado y exótico), la violeta de Francia y la orquídea cristalizada. Como fondo, la madera de amaranto, cuyo aroma recuerda al del clavel con más madera y suavidad; se armoniza con una nota de vino dulce de Banyuls y ciruela confitada.",
@@ -240,7 +240,7 @@
     "stock": "7"
 },
 {   
-    "id": "25",
+    "id": 25,
     "categoria": "mujer",
     "titulo": "La Belle Le Parfum EDP",
     "descripcion": "La Belle Le Parfum, la nueva intensidad de la mujer original de Jean Paul Gaultier En el Jardín de Gaultier, ahora todos los pecados están permitidos. Ahí, la nueva mujer original La Belle Le Parfum es aún más sensual con su adictivo Eau de Parfum Intense Oriental Gourmand. La seducción del fruto prohibido rojo oscuro. Sucumbí a la tentación...",
@@ -250,7 +250,7 @@
     "stock": "13"
 },
 {   
-    "id": "26",
+    "id": 26,
     "categoria": "mujer",
     "titulo": "Lady Millon",
     "descripcion": "Lady Million, de Paco Rabanne, representa a la femme-fatale que lleva un aroma para seducir. Deseando la vida y viviendo para la persecución. Flores blancas (sexys) que despiertan sobre la piel con notas frescas, se derraman sobre pachuli.",
@@ -260,7 +260,7 @@
     "stock": "23"
 },
 {   
-    "id": "27",
+    "id": 27,
     "categoria": "mujer",
     "titulo": "N°5",
     "descripcion": "Nº 5, la mismísima esencia de la feminidad. Un ramillete floral empolvado sublimado por un frasco icónico de líneas minimalistas. Un perfume mítico y atemporal. En 1921, Gabrielle Chanel encarga a Ernest Beaux la creación de un perfume de mujer con olor de mujer, extraordinario y poderoso. La nariz le propone una composición visionaria que apela a una utilización inédita de los aldehídos. Mademoiselle selecciona la versión número 5 de la fragancia, y decide conservar este sencillo número como nombre. Para este nuevo jugo, elige un frasco radical, adornado con una etiqueta blanca y cubierto con un capuchón poliédrico. ",

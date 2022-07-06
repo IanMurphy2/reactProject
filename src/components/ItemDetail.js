@@ -1,9 +1,11 @@
 
-function ItemDetail( {descripcion} ){
+function ItemDetail( {productDetail} ){
 
+
+    console.log(productDetail)
     return(
 
-        <h1>{descripcion}</h1>
+        <h1>{productDetail.descripcion}</h1>
 
     )
 

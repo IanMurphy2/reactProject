@@ -7,7 +7,18 @@ function ItemList({ listadoProductos }){
 
         <main className="ItemList">
 
-            {listadoProductos.map(producto => <Item key={producto.id} titulo={producto.titulo} marca={producto.marca} foto={producto.foto} precio={producto.precio} stock={producto.stock} descripcion={producto.descripcion} />)}
+            {listadoProductos.map(producto => 
+                <Item 
+                    key={producto.id} 
+                    id={producto.id} 
+                    titulo={producto.titulo} 
+                    marca={producto.marca} 
+                    foto={producto.foto} 
+                    precio={producto.precio} 
+                    stock={producto.stock} 
+                    descripcion={producto.descripcion} 
+                    />)
+            }
         
         </main>
         

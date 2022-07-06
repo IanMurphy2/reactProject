@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
 import "./NavBar.css"
 
@@ -5,13 +6,13 @@ function NavBar({cantCarrito}){
     return(
 
         <header className="header">
-        <a href="#" className="logo"> <img className="logo__pic" src="../assets/LogoPerfumeria.jpg" alt="Logo de la marca"/> </a>
-        <nav className="header__nav">
-        <a className="nav__btn" href="#">Hombre</a>
-        <a className="nav__btn" href="#">Fragancias</a>
-        <a className="nav__btn" href="#">Mujer</a>
-        </nav>
-        <CartWidget cantidad={cantCarrito}/>
+            <NavLink to="/" className="logo"> <img className="logo__pic" src="../assets/LogoPerfumeria.jpg" alt="Logo de la marca"/> </NavLink>
+            <nav className="header__nav">
+                <NavLink to="/hombre" className="nav__btn">Hombre</NavLink>
+                <NavLink to="/fragancias" className="nav__btn">Fragancias</NavLink>
+                <NavLink to="/mujer" className="nav__btn">Mujer</NavLink>
+            </nav>
+            <CartWidget cantidad={cantCarrito}/>
         </header>
 
     )

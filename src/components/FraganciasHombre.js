@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import ItemList from "./ItemList";
 
-function ItemListContainer(){
+function FraganciasHombre(){
    
     const [info, setInfo] = useState([])
 
@@ -9,7 +9,7 @@ function ItemListContainer(){
         setTimeout(() => {
             fetch("data.json")
             .then((resp) => resp.json())
-            .then((data) => setInfo(data))
+            .then((data) => setInfo(data.filter(e => e.categoria === "hombre")))
         }, 1000)
     }, [])
 
@@ -21,4 +21,4 @@ function ItemListContainer(){
     )
 }
 
-export default ItemListContainer;
+export default FraganciasHombre;
