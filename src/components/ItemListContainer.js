@@ -4,7 +4,7 @@ import ItemList from "./ItemList";
 function ItemListContainer(){
    
     const [info, setInfo] = useState([])
-
+    
     useEffect(() => {
         setTimeout(() => {
             fetch("data.json")
@@ -16,7 +16,7 @@ function ItemListContainer(){
     return(
 
         <main>
-        <ItemList listadoProductos={info} />
+            <ItemList listadoProductos={info} />
         </main>
     )
 }

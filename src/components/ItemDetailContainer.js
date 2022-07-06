@@ -10,13 +10,11 @@ function ItemDetailContainer(){
     
     useEffect(() => {
         setTimeout(() => {
-            fetch("data.json")
+            fetch("../data.json")
             .then((resp) => resp.json())
             .then((data) => setInfo(data.find(e => e.id == fraganciaId)))
         }, 1000)
     },[])
-
-    console.log(info)
 
     return(
 

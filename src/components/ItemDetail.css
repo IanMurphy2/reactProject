@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.itemdetail{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.itemdetail__imagenes{
+    width: 40%;
+    margin: 3rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 20px black ;
+}
+
+.itemdetail__img{
+    margin: 1rem;
+    width: 90%;
+}
+
+.itemdetail__info{
+    width: 60%;
+    height: 65%;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemdetail__info__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemdetail__info__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.itemdetail__info__marca{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0, 0.7);
+    font-style: italic;
+}
+
+.itemdetail__info__desc{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.itemdetail__info__compra{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemdetail__info__precio{
+    margin-top: 0.5rem;
+    font-size: 2rem;
+}
