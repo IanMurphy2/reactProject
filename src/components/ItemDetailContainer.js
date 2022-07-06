@@ -7,7 +7,7 @@ function ItemDetailContainer(){
     
     const [info, setInfo] = useState([])
     const { fraganciaId } = useParams()
-    
+
     useEffect(() => {
         setTimeout(() => {
             fetch("../data.json")

@@ -1,3 +1,8 @@
+# General Info
+
+Proyecto realizado por Ian Murphy para aprender y practicar ReactJs, el mismo consta de varias paginas que muetran distintas informacion que juntas conforman la web de una perfumeria conceptual. En el proyecto se utilizo HTML, CSS puro, JS y ReactJs, por el no se ah utilizado ningun framework o extension
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
