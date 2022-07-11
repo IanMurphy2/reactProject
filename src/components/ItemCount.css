@@ -88,3 +88,7 @@
 .not-allowed{
     cursor: not-allowed;
 }
+
+.width60{
+    width: 60%;
+}

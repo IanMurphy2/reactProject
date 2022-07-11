@@ -1,0 +1,11 @@
+.mainCart{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cartText{
+    margin-top: 2rem;
+    color: black;
+    font-size: 70px;
+}

@@ -3,9 +3,8 @@ import './App.css';
 import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/NavBar';
 import ItemDetailContainer from "./components/ItemDetailContainer"
-import FraganciasHombre from "./components/FraganciasHombre";
-import FraganciasMujer from "./components/FraganciasMujer"
 import NotFound from "./components/NotFound";
+import Cart from "./components/Cart";
 
 
 function App() {
@@ -15,12 +14,11 @@ function App() {
     <NavBar cantCarrito="8"/>
 
     <Routes>
+      <Route exact path="/:categoriaId" element={<ItemListContainer />}></Route>
       <Route exact path="/" element={<ItemListContainer />}></Route>
-      <Route exact path="/fragancias" element={<ItemListContainer />}></Route>
       <Route path="/fragancias/:fraganciaId" element={<ItemDetailContainer />}></Route>
-      <Route exact path="/hombre" element={<FraganciasHombre />}></Route>
-      <Route exact path="/mujer" element={<FraganciasMujer />}></Route>
       <Route path="*" element={<NotFound />}></Route>
+      <Route path="/cart" element={<Cart />}></Route>
     </Routes>
 
     </>
