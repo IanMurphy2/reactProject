@@ -1,14 +1,17 @@
-import { useState } from "react";
-import "./ItemDetail.css"
-import ItemCount from "./ItemCount"
+import { useContext, useState } from "react";
+import {CartContext} from "../context/cartContext"
 import { Link } from "react-router-dom";
+import ItemCount from "./ItemCount"
+import "./ItemDetail.css"
 
 function ItemDetail( {productDetail} ){
 
     const [purchaseCompleted, setPurchaseCompleted] = useState(true)
+    const {addToCart} = useContext(CartContext)
 
-    const onAdd = () => {
+    const onAdd = (num) => {
         setPurchaseCompleted(false)
+        addToCart(productDetail, num)
     }
 
     return(

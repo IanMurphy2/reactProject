@@ -1,5 +1,6 @@
 import "./ItemCount.css"
 import { useState } from "react"
+import {CartContext} from "../context/cartContext"
 
 function ItemCount({ stock, inicial, onAdd }){
 
@@ -24,7 +25,7 @@ return(
         <span className="card__cant__num">{num}</span>
         <button className="card__btn" onClick={suma}>+</button>
     </div>
-    {stock === "0"? <button className="AgregarAlCarrito__btn not-allowed">Fuera de stock</button> : <button onClick={onAdd} className="AgregarAlCarrito__btn">Agregar al Carrito</button>}
+    {stock === "0"? <button className="AgregarAlCarrito__btn not-allowed">Fuera de stock</button> : <button onClick={() => onAdd(num)} className="AgregarAlCarrito__btn">Agregar al Carrito</button>}
     </section>
 
     )

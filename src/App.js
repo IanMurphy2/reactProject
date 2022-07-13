@@ -5,22 +5,22 @@ import NavBar from './components/NavBar';
 import ItemDetailContainer from "./components/ItemDetailContainer"
 import NotFound from "./components/NotFound";
 import Cart from "./components/Cart";
+import {CartProvider} from "./context/cartContext"
 
 
 function App() {
   return(
     <>
-
-    <NavBar cantCarrito="8"/>
-
-    <Routes>
-      <Route exact path="/:categoriaId" element={<ItemListContainer />}></Route>
-      <Route exact path="/" element={<ItemListContainer />}></Route>
-      <Route path="/fragancias/:fraganciaId" element={<ItemDetailContainer />}></Route>
-      <Route path="*" element={<NotFound />}></Route>
-      <Route path="/cart" element={<Cart />}></Route>
-    </Routes>
-
+    <CartProvider>
+      <NavBar cantCarrito="8"/>
+      <Routes>
+        <Route exact path="/:categoriaId" element={<ItemListContainer />} />
+        <Route exact path="/" element={<ItemListContainer />} />
+        <Route path="/fragancias/:fraganciaId" element={<ItemDetailContainer />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </CartProvider>
     </>
     );
 }
