@@ -8,17 +8,19 @@ function ItemListContainer(){
     const { categoriaId } = useParams()
     
     useEffect(() => {
+        setInfo([])
         setTimeout(() => {
             fetch("data.json")
             .then((resp) => resp.json())
             .then((data) => setInfo(categoriaId ? data.filter(e => e.categoria === categoriaId) : data))
         }, 1000)
-    }, [])
+    }, [categoriaId])
 
     return(
 
-        <main>
+        <main className="itemListContainer__main">
             <ItemList listadoProductos={info} />
+            {/* {loading && <p className="itemListContainer__loading">loremasdasdasdasdasdasdasdasdasdasdasd</p>} */}
         </main>
 
     )

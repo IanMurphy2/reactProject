@@ -2,11 +2,12 @@ import { useContext } from "react";
 import CartContext from "../context/cartContext";
 import "./Cart.css"
 import CartItem from "./CartItem"
+import EmptyCart from "./EmptyCart";
 
 function Cart(){
 
     const context = useContext(CartContext)
-    // console.log(context.removeFromCart)
+
 return(
 
     <main className="mainCart">
@@ -15,10 +16,14 @@ return(
         id={e.item.id} 
         foto={e.item.foto} 
         titulo={e.item.titulo} 
-        cant={e.cantidad} 
+        cant={e.cantidad}
+        precio={e.item.precio}
+        stock={e.item.stock} 
         removeFromCart={context.removeFromCart}
         /> )}
-        <button className="BorrarCarrito__btn" onClick={context.clearCart}>Borrar Carrito</button>
+        <h1>{context.cantTot} producto{context.cantTot !== 1 && "s"}, el precio total es: ${context.precioTot}</h1>
+        {context.cart[0] &&  <button className="BorrarCarrito__btn" onClick={context.clearCart}>Borrar Carrito</button>}
+        {!context.cart[0] &&  <EmptyCart />}
     </main>
 
     )

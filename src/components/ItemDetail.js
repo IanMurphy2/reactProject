@@ -27,7 +27,8 @@ function ItemDetail( {productDetail} ){
                 </div>
                 <p className="itemdetail__info__desc">{productDetail.descripcion}</p>
                 <div className="itemdetail__info__compra">
-                    {purchaseCompleted ? <ItemCount onAdd={onAdd} stock={productDetail.stock} inicial={1} /> : <Link to="/cart" className="width60 nav__btn AgregarAlCarrito__btn">Ir al Carrito</Link>}
+                    {purchaseCompleted ? <ItemCount onAdd={onAdd} stock={productDetail.stock} inicial={1} /> : <Link to="/cart" className="irAlCarrito__btn">Ir al Carrito</Link>}
+                    <h3 className="card__marca">stock disponible: {productDetail.stock}</h3>
                     <span className="itemdetail__info__precio">{productDetail.precio}</span>
                 </div>
             </aside>        

@@ -3,6 +3,7 @@ import CartWidget from "./CartWidget";
 import "./NavBar.css"
 
 function NavBar({cantCarrito}){
+
     return(
 
         <header className="header">
@@ -12,7 +13,7 @@ function NavBar({cantCarrito}){
                 <NavLink to={"/"} className="nav__btn">Fragancias</NavLink>
                 <NavLink to={"/mujer"} className="nav__btn">Mujer</NavLink>
             </nav>
-            <CartWidget cantidad={cantCarrito}/>
+            <CartWidget />
         </header>
 
     )
