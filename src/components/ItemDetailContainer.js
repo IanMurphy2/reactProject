@@ -16,6 +16,7 @@ function ItemDetailContainer(){
     //         .then((data) => setInfo(data.find(e => e.id == fraganciaId)))
     //     }, 1000)
     // },[])
+    
     useEffect(() => {
         getFragances(fraganciaId).then(data => setInfo(data))
     }, [fraganciaId])

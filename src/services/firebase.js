@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs, getDoc, doc, query, where } from "firebase/firestore";
+import { getFirestore, collection, getDocs, getDoc, doc, query, where, addDoc } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDpMv6RCPtBaxHI8sFQik-gFh7CM3PJT9w",
@@ -20,12 +20,9 @@ export function testDB(){
 }
 
 export async function getAllFragances(categoria){ 
+    let fraganciasCollectionRef
+    fraganciasCollectionRef = categoria ? query(collection(db, "fragancias"), where("categoria", "==", categoria)) : fraganciasCollectionRef = collection(db, "fragancias")
     
-    if(categoria){
-        var fraganciasCollectionRef = query(collection(db, "fragancias"), where("categoria", "==", categoria))
-    }else{
-        fraganciasCollectionRef = collection(db, "fragancias")
-    }
     const docSnapshot = await getDocs(fraganciasCollectionRef)
     
     const dataFragancias = docSnapshot.docs.map(item => {
@@ -37,6 +34,15 @@ export async function getAllFragances(categoria){
     })
     
     return(dataFragancias)
+}
+
+
+export function SetNewOrder(order){
+    
+    const ordersCollection = collection(db, "orders")
+
+    const addDocReturn = addDoc(ordersCollection, order)
+    return(addDocReturn)
 }
 
 export async function getFragances(id){
