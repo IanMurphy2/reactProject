@@ -12,7 +12,7 @@ function App() {
   return(
     <>
     <CartProvider>
-      <NavBar cantCarrito="8"/>
+      <NavBar />
       <Routes>
         <Route exact path="/:categoriaId" element={<ItemListContainer />} />
         <Route exact path="/" element={<ItemListContainer />} />

@@ -3,6 +3,7 @@ import {CartContext} from "../context/cartContext"
 import { Link } from "react-router-dom";
 import ItemCount from "./ItemCount"
 import "./ItemDetail.css"
+import Swal from 'sweetalert2'
 
 function ItemDetail( {productDetail} ){
 
@@ -12,6 +13,23 @@ function ItemDetail( {productDetail} ){
     const onAdd = (num) => {
         setPurchaseCompleted(false)
         addToCart(productDetail, num)
+        
+        const Toast = Swal.mixin({
+            toast: true,
+            position: 'bottom-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', Swal.stopTimer)
+              toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+          })
+          
+          Toast.fire({
+            icon: 'success',
+            title: 'Se agrego al carrito correctamente'
+          })
     }
 
     return(

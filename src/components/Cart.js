@@ -33,7 +33,7 @@ return(
         {context.cart[0] &&  <button className="BorrarCarrito__btn" onClick={context.clearCart}>Borrar Carrito</button>}
         {!context.cart[0] &&  <EmptyCart />}
         {context.cart[0] && terminarCompraBtn && <button onClick={terminarCompraHandler} className="BorrarCarrito__btn">Terminar Compra</button>}
-        {terminarCompra && context.cart[0] && <OrderCollection cartItems={context.cart} cantTot={context.cantTot} precioTot={context.precioTot}/>}
+        {terminarCompra && context.cart[0] && <OrderCollection cartItems={context.cart} clearCart={context.clearCart} cantTot={context.cantTot} precioTot={context.precioTot}/>}
     </main>
 
     )
